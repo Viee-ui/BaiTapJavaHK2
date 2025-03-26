@@ -1,0 +1,17 @@
+<students>
+    <student id="1">
+        <name>Nguyễn Văn Phong</name>
+        <msv>24ITE01</msv>
+        <class>24ITe</class>
+    </student>
+    <student id="2">
+        <name>Trương Đức Long</name>
+        <msv>24ITE02</msv>
+        <class>24ITe</class>
+    </student>
+    <student id="3">
+        <name>Lê Bá Trung Trực</name>
+        <msv>24ITB03</msv>
+        <class>24IT7</class>
+    </student>
+</students>

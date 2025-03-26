@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students>
+    <student id="01">
+        <name>việt</name>
+        <age>18</age>
+        <major>cntt</major>
+    </student>
+</students>
