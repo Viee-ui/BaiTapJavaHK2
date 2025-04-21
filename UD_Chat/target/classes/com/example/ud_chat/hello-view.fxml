@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.ud_chat.HelloController">
+    <HBox spacing="10">
+        <TextField fx:id="ipField" promptText="IP" />
+        <TextField fx:id="portField" promptText="Port" />
+        <Button text="Kết nối" onAction="#onConnectClick" />
+    </HBox>
+    <TextArea fx:id="messageArea" prefHeight="300" editable="false" wrapText="true" />
+    <HBox spacing="10">
+        <TextField fx:id="inputField" promptText="Nhập tin nhắn" HBox.hgrow="ALWAYS"/>
+        <Button text="Gửi" onAction="#onSendClick" />
+    </HBox>
+</VBox>
